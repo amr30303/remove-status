@@ -22,7 +22,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["🤖Bot v2.0","Armada Community","Developed By 👑 Shaf3ey"];
+const statusMessages = ["Bot v2.0","Armada Community","Developed By  Shaf3ey"];
 
 
 let currentIndex = 0;
@@ -71,7 +71,7 @@ client.once('ready', () => {
 
   setInterval(() => {
     updateStatusAndSendMessages();
-  }, 5000);
+  }, 10000);
 });
 
 login();
